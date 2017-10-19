@@ -1,0 +1,49 @@
+\title{Frequency Analysis}
+\author{
+        Amanjot Bhullar \\
+}
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage[margin=0.9in]{geometry}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{subcaption}
+\def\bs{\boldsymbol}
+\begin{document}
+\maketitle
+\clearpage
+\setlength{\parindent}{0pt}
+\newcommand{\forceindent}{\leavevmode{\parindent=1em\indent}}
+\captionsetup[subfigure]{labelformat=empty}
+\captionsetup[figure]{labelformat=empty}
+
+
+\title{\textbf{{\Large Frequency Analysis}}}
+
+\begin{center}
+\begin{tabular}{ c c c }
+ \textbf{Data} & \textbf{Fundamental Freq and Harmonics}  & \textbf{Upsilon Class} \\ 
+ \texttt{ALVir} & cell5 & \texttt{CEPH\_F} \\  
+ \texttt{CCLyr} & cell8 & \texttt{CEPH\_F} \\
+ \texttt{CSCas} & cell2 & \texttt{T2CEPH} \\ 
+ \texttt{FMDel} & cell5 & \texttt{T2CEPH} \\  
+ \texttt{MZCyg} & cell8 & \texttt{T2CEPH} \\
+ \texttt{OGLE-BLG-T2CEP-294} & cell2 & \texttt{CEPH\_F} \\ 
+ \texttt{r\_101.20779.225} & cell5 & \texttt{NonVar} \\  
+ \texttt{r\_102.22856.44} & cell8 & \texttt{T2CEPH} \\
+ \texttt{r\_102.23632.48} & cell2 & \texttt{LPV\_SRV\_AGB\_O} \\ 
+ \texttt{r\_103.24814.3749} & cell5 & \texttt{T2CEPH} \\  
+ \texttt{r\_104.20779.5959} & cell8 & \texttt{NonVar} \\
+ \texttt{r\_105.21556.104} & cell2 & \texttt{T2CEPH} \\ 
+ \texttt{RRMic} & cell5 & \texttt{T2CEPH} \\  
+ \texttt{RXLib} & cell8 & \texttt{T2CEPH}     
+\end{tabular}
+\end{center}
+
+So now that we've seen how much aliasing can mess with our ability to measure things, how do you get around it? Well, when you want to measure a system / signal that is oscillating, the rule of thumb is as follows. First, you figure out what kinds of frequencies you expect to see in your system. If we were going to be measuring the position of a ball that I was physically moving up and down, we definitely wouldn't be worried about it going up and down ten billion times per second (actually we could probably rule out anything larger than like 10 times per second). Then you take the highest frequency you think you could see and make sure you are measuring the system at least 10 times that frequency. (In the example above, say we guessed the fastest I could have moved the ball was 20 cycles per second. We would then measure at least 200 times per second, and we obviously wouldn't have missed anything.) 
+
+\end{document}
+
+
+
