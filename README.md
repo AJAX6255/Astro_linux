@@ -1,6 +1,6 @@
 # Classification of Type II Cepheids 
 
-### Required packages:
+## Required packages:
 astropy,
 pandas,
 upsilon,
@@ -11,5 +11,6 @@ sklearn,
 FATS -- available on https://github.com/isadoranun/FATS
 <br />
 
-### Folders
+## Folders
 #### time_series_analysis
+This folder
