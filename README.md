@@ -13,4 +13,7 @@ FATS -- available on https://github.com/isadoranun/FATS
 
 ## Folders
 #### time_series_analysis
-The file "LX_Cyg.ipynb" is a tutorial showing how to plot the raw daw, a periodogram, and phase plot.
+The file "LX_Cyg.ipynb" is a tutorial showing how to plot the raw data, a periodogram, and phase plot.
+#### feature_extraction
+This folder goes over the process of extracting features from the raw data and storing them in an SQL database.
+#### classification
