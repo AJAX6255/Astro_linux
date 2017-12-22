@@ -1,6 +1,6 @@
-# Astro_linux
+# Classification of Type II Cepheids 
 
-Required packages:
+### Required packages:
 astropy,
 pandas,
 upsilon,
@@ -11,4 +11,4 @@ sklearn,
 FATS -- available on https://github.com/isadoranun/FATS
 <br />
 
-test
+###
