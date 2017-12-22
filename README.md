@@ -21,4 +21,4 @@ This folder goes over the steps involved to make the classifier "voting_ensemble
 #### classifier_finished
 This folder demonstrates how to use the classifier.  Place the raw data files in the folder "Time_Series".  Each raw data file must include the columns time, magnitude, and error which are separated by a space.  Then run scripts "1. feature_extraction.ipynb" and "2. classification.ipynb", respectively.
 #### machine_learning_notes.pdf
-These notes were created by me and are intended to provide some intuition and mathematical background behind the machine learning techniques that were used to make the classifier.
+These notes were created by me, and are intended to provide some intuition and mathematical background to the machine learning techniques that were used to make the classifier.
